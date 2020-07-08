@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Classproject</string>
+    <string-array name="country">
+        <item>Pakistan</item>
+        <item>Austrialia</item>
+        <item>Usa</item>
+        <item>Iran</item>
+        <item>Bangladesh</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="city">
+        <item>karachi</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Quetta</item>
+    </string-array>
+    <string-array name="areakhi">
+        <item>North Nazimabad</item>
+
+        <item>Defence phase</item>
+
+        <item>Saddar</item>
+
+        <item>PECHS</item>
+    </string-array>
+    <array name="values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </array>
+    <string-array name="arealhr">
+        <item>Fransisi Town</item>
+        <item>Allama Iqbal Town</item>
+        <item>Sabzazar</item>
+        <item>Wahdat Colony</item>
+
+    </string-array>
+    <string-array name="setting">
+        <item>Logout</item>
+        <item>Exit</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

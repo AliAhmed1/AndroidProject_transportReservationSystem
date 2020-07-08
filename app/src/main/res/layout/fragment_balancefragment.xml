@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Balancefragment"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/transparent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="My Balance"
+            android:textColor="#070707"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/gotobalance"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_marginTop="470dp"
+            android:background="@drawable/styling"
+            android:layout_marginLeft="20dp"
+            android:text="Get Balance" />
+        <Button
+            android:id="@+id/viewtobalance"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="470dp"
+            android:background="@drawable/styling"
+            android:text="View Balance" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

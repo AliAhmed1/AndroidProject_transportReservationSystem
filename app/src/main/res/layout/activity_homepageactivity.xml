@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobview"
+    tools:context=".homepageactivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220px">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050505"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:textStyle="bold"
+            android:layout_marginRight="5px"
+            android:layout_weight="1"
+            android:background="#FAAE55"
+            android:text="Reservations"
+            android:layout_marginBottom="5px"
+            android:onClick="reservationpage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:textStyle="bold"
+
+            android:layout_marginRight="5px"
+            android:layout_weight="1"
+            android:background="#FAAE55"
+            android:text="My Balance"
+            android:onClick="balancepage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="5px"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="#FAAE55"
+            android:text="Setting"
+            android:onClick="settingpage"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/homecontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name=".Reservationsfragment"
+        >
+    </FrameLayout>
+</LinearLayout>

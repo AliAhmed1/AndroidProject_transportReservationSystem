@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/mobview"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Management system"
+        android:textColor="#020000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textColor="#020000"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/signuppage"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/styling"
+        android:onClick="sigup"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/loginpage"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/styling"
+        android:onClick="login"
+        android:text="LOG IN"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="451dp" />
+</RelativeLayout>
